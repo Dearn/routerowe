@@ -10,6 +10,6 @@ soup = BeautifulSoup(data, "html.parser")
 a = ""
 for td in soup.find_all('td', {'id':'ip3g'}):
     a = td.string
-    print (a)
+
 with open('/home/pi/routerowe/adres.txt', 'w') as out:
     out.write(a)
