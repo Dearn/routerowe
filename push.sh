@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /home/pi/routerowe/;git add . ; git commit -m 'a'; git push 
+cd /home/pi/routerowe/;git add . ; git commit -m 'crontab'; git push 
